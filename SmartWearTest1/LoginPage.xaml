@@ -2,15 +2,23 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SmartWearTest1.LoginPage">
-
+			 
     <StackLayout BackgroundColor="#260530">
         <Image Source="https://ltdfoto.ru/image/mAzT1B" HorizontalOptions="Center"/>
 
         <Label Text="Login" FontSize="26" TextColor="White" />
-
-        <Entry Placeholder="Enter email" TextColor="BlueViolet" BackgroundColor="White"/>
-        <Entry IsPassword="True" Placeholder="Enter password" TextColor="BlueViolet" BackgroundColor="White"/>
-        
+		    
+	<Frame BackgroundColor="#260530" BorderColor = "BlueViolet">
+			<StackLayout>
+                    <Entry Placeholder="Enter email" TextColor="BlueViolet" BackgroundColor="White"/>
+		    </StackLayout>
+        </Frame>
+		
+		<Frame BackgroundColor="#260530" BorderColor = "BlueViolet">
+			<StackLayout>
+                    <Entry IsPassword="True" Placeholder="Enter password" TextColor="BlueViolet" BackgroundColor="White"/>
+        	</StackLayout>
+        </Frame>
 
     </StackLayout>
 

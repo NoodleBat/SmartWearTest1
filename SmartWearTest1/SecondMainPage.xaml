@@ -1,20 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SmartWearTest1.MainPage">
     <ScrollView>
         <StackLayout BackgroundColor="#260530">
-            <Image Source="https://ltdfoto.ru/image/mA5rYV" Margin="1,0,1,0"/>
-            <Label Text="Connection" FontSize="16" TextColor="White" />
-            <Label Text=".." FontSize="16" TextColor="White" />
-            
-            <Frame BackgroundColor="BlueViolet" CornerRadius="0" Margin="6,0,0,8">
-                <StackLayout>
-                <Button BackgroundColor="#260530"/>
-            </StackLayout>
-            </Frame>  
-            
-            <StackLayout>
+            <Button ImageSource="https://ltdfoto.ru/image/mAFUHS" Margin="0,5,0,8"/>
+
+            <StackLayout Margin="3,0,0,4">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -26,14 +18,12 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <Button BackgroundColor="White" Text="Steps" TextColor="BlueViolet" FontSize="16" Grid.Column="1" Grid.Row="1"/>
-                    <Button BackgroundColor="White" Text="Blood pressure" TextColor="BlueViolet" FontSize="16" Grid.Column="1" Grid.Row="2"/>
-                    <Button BackgroundColor="White" Text="Heart Rate" TextColor="BlueViolet" FontSize="16" Grid.Column="1" Grid.Row="3"/>
-                    <Button BackgroundColor="White" Text="Sleep" TextColor="BlueViolet" FontSize="16" Grid.Column="1" Grid.Row="4"/>
-                    <Image  Grid.Column="2" Grid.Row="1"/>
-                    <Image  Grid.Column="2" Grid.Row="2"/>
-                    <Image  Grid.Column="2" Grid.Row="3"/>
-                    <Image  Grid.Column="2" Grid.Row="4"/>
+                    <Button Text="Notification" TextColor="White" FontSize="20" Grid.Column="2" Grid.Row="1"/>
+                    <Button Text="Alarms" TextColor="White" FontSize="20" Grid.Column="2" Grid.Row="2"/>
+                    <Button Text="Water reminders" TextColor="White" FontSize="20" Grid.Column="2" Grid.Row="3"/>
+                    <Image Sourse="https://ltdfoto.ru/image/mAY3mZ" Grid.Column="1" Grid.Row="1"/>
+                    <Image Sourse="https://ltdfoto.ru/image/mAYUPJ" Grid.Column="1" Grid.Row="2"/>
+                    <Image Sourse="https://ltdfoto.ru/image/mAYfXL" Grid.Column="1" Grid.Row="3"/>
                 </Grid>
             </StackLayout>
 
@@ -53,5 +43,5 @@
 
         </StackLayout>
     </ScrollView>
-    
+
 </ContentPage>

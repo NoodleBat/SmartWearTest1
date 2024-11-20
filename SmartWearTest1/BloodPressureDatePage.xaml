@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartWearTest1.BloodPressureDatePage">
+    <ScrollView>
+        <StackLayout BackgroundColor="#260530">
+            <Frame BackgroundColor="White" Margin="0,0,0,8">
+                <StackLayout>
+                    <Label Text="Blood pressure" FontSize="32" TextColor="BlueViolet" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+            <Image Sourse=""/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
